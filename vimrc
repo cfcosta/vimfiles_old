@@ -82,7 +82,7 @@ let g:fuzzy_ignore = "*.jpg;*.png;*.gif;*.mid;*.mp3;*.ogg;*.ttf;*.otf;*~;.*;*.db
 nnoremap <M-Up> :tabnext<CR>
 nnoremap <M-Down> :tabprevious<CR>
 " Nerd Tree!
-nnoremap <C-E> :NERDTreeToggle<CR>
+nnoremap <silent><C-E> :NERDTreeToggle<CR>
 " Tab navigation
 map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
