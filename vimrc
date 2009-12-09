@@ -13,7 +13,6 @@ filetype plugin indent on
 " Color Configs
 syntax on
 set t_Co=256
-colorscheme railscasts
 
 " Fold Configs
 set nofoldenable
