@@ -166,6 +166,10 @@ snippet if
 	if (${1:/* condition */}) {
 		${2:// code...}
 	}
+snippet ifp
+	<?php if (${1:/* condition */}): ?>
+		${2:// code...}
+	<?php endif ?>
 snippet ife
 	if (${1:/* condition */}) {
 		${2:// code...}
@@ -206,6 +210,14 @@ snippet foreach
 	foreach ($${1:variable} as $${2:key}) {
 		${3:// code...}
 	}
+snippet foreachp
+	<?php foreach ($${1:variable} as $${2:key}): ?>
+		${3:// code...}
+	<?php endforeach ?>
+snippet fp
+	<?php foreach ($${1:variable} as $${2:key}): ?>
+		${3:// code...}
+	<?php endforeach ?>
 snippet fun
 	${1:public }function ${2:FunctionName}(${3})
 	{
