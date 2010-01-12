@@ -60,6 +60,8 @@ augroup filetypedetect
   au BufRead,BufNewFile README setf readme
   au BufRead,BufNewFile bmpanel2rc setf bmpanel2
   autocmd BufWritePost .vimrc source %
+  au BufRead,BufNewFile *.mkd setf mkd
+  au BufRead,BufNewFile *.markdown setf mkd
 augroup END
 
 " === HOTKEYS
