@@ -50,6 +50,8 @@ set wildignore=*.o,*.obj,*~,*.png,*.jpg,*.gif,*.db
 augroup filetypedetect
   " Tmplates
   au BufNewFile *.html 0r ~/.vim/templates/html/basic_with_meta
+  au BufNewFile *.html5 0r ~/.vim/templates/html/html5
+  au BufNewFile *.php 0r ~/.vim/templates/php
   au BufNewFile *.sh 0r ~/.vim/templates/bash
   au BufNewFile *.css 0r ~/.vim/templates/css
   au BufNewFile *.js 0r ~/.vim/templates/js
