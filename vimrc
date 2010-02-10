@@ -91,9 +91,8 @@ map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
 map <silent><C-N> :tabnew .<CR>
 map <silent><C-Tab> :tabnext<CR>
-" Hashes and arrows
+" Control-l for rocket hash (like textmate)
 imap <C-l> <Space>=><Space>
-imap <C-a> ->
 " Other mini-snippets
 imap <C-k> <%=<Space><Space>%><Left><Left><Left>
 imap <C-j> <%<Space><Space>%><Left><Left><Left>
