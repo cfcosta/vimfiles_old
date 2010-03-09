@@ -119,3 +119,5 @@ vnoremap '  <ESC>`>a'<ESC>`<i'<ESC>
 vnoremap `  <ESC>`>a`<ESC>`<i`<ESC>
 vnoremap [  <ESC>`>a]<ESC>`<i[<ESC>
 vnoremap ]  <ESC>`>a]<ESC>`<i[<ESC>
+
+inoremap <C-b> <C-x><C-o>
