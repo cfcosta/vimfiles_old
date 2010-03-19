@@ -63,7 +63,16 @@ augroup filetypedetect
   au BufRead,BufNewFile bmpanel2rc setf bmpanel2
   au BufRead,BufNewFile *.mkd      setf mkd
   au BufRead,BufNewFile *.markdown setf mkd
-  au BufNewFile,BufRead *.mustache setf mustache
+  au BufRead,BufNewFile *.mustache setf mustache
+  au BufRead,BufNewFile *.vala            setfiletype vala
+  au BufRead,BufNewFile *.vapi            setfiletype vala
+  au BufRead *.vala set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
+  au BufRead *.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
+
+  " Vala Specific
+  let vala_comment_strings = 1
+  let vala_space_errors = 1
+  let vala_no_tab_space_error = 1
 augroup END
 
 " === HOTKEYS
