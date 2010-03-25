@@ -52,7 +52,6 @@ augroup filetypedetect
   au BufNewFile *.html  0r ~/.vim/templates/html/html5
   au BufNewFile *.php   0r ~/.vim/templates/php
   au BufNewFile *.sh    0r ~/.vim/templates/bash
-  au BufNewFile *.css   0r ~/.vim/templates/css
   au BufNewFile *.js    0r ~/.vim/templates/js
   au BufNewFile *.rb    0r ~/.vim/templates/ruby
   " Filetype
