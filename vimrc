@@ -75,14 +75,6 @@ augroup filetypedetect
 augroup END
 
 " === HOTKEYS
-" bind Control-t to shift right
-nmap <C-t> >>
-vmap <C-t> >>
-imap <C-t> <C-O>>>
-" bind Control-d to shift left
-nmap <C-d> <<
-vmap <C-d> <<
-imap <C-d> <C-O><<
 " Make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
